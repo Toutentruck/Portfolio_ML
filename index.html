@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio ML | Votre Nom</title>
+    <meta
+      name="description"
+      content="Portfolio Machine Learning – projets, compétences, et contact."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="logo" href="#top">Portfolio ML</a>
+        <div class="nav-links">
+          <a href="#projets">Projets</a>
+          <a href="#competences">Compétences</a>
+          <a href="#apropos">À propos</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="nav-toggle" aria-label="Ouvrir le menu">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-content">
+          <p class="pill">Machine Learning • Data Science</p>
+          <h1>Bonjour, je suis <span class="accent">Votre Nom</span></h1>
+          <p class="lead">
+            Data scientist orienté production, passionné par la création de modèles
+            fiables et l’industrialisation.
+          </p>
+          <div class="cta">
+            <a class="btn primary" href="#projets">Voir mes projets</a>
+            <a class="btn ghost" href="#contact">Me contacter</a>
+          </div>
+          <div class="socials">
+            <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="mailto:email@exemple.com">email@exemple.com</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="stat">
+            <span class="stat-value">8+</span>
+            <span class="stat-label">projets ML</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">3</span>
+            <span class="stat-label">domaines</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">Top 5%</span>
+            <span class="stat-label">compétitions</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="projets" class="section">
+        <div class="section-header">
+          <h2>Projets</h2>
+          <p>Une sélection de projets récents avec impact mesurable.</p>
+        </div>
+        <div class="grid cards">
+          <article class="card">
+            <h3>Détection d’anomalies en production</h3>
+            <p>
+              Pipeline temps réel avec isolation forest, monitoring et alerting.
+            </p>
+            <div class="tags">
+              <span>Python</span><span>Kafka</span><span>MLflow</span>
+            </div>
+            <a class="card-link" href="#">Voir le projet</a>
+          </article>
+          <article class="card">
+            <h3>Recommandation e-commerce</h3>
+            <p>
+              Modèle hybride (collaboratif + contenu) optimisé pour la conversion.
+            </p>
+            <div class="tags">
+              <span>PyTorch</span><span>FAISS</span><span>API</span>
+            </div>
+            <a class="card-link" href="#">Voir le projet</a>
+          </article>
+          <article class="card">
+            <h3>Vision par ordinateur</h3>
+            <p>Segmentation d’images médicales avec Unet et évaluation rigoureuse.</p>
+            <div class="tags">
+              <span>TensorFlow</span><span>CV</span><span>Docker</span>
+            </div>
+            <a class="card-link" href="#">Voir le projet</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="competences" class="section alt">
+        <div class="section-header">
+          <h2>Compétences</h2>
+          <p>Stack technique et expertises clés.</p>
+        </div>
+        <div class="grid skills">
+          <div class="skill-group">
+            <h3>ML / IA</h3>
+            <ul>
+              <li>Modélisation supervisée et non supervisée</li>
+              <li>Feature engineering, sélection et validation</li>
+              <li>MLOps, monitoring, drift detection</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Data</h3>
+            <ul>
+              <li>ETL, orchestration, qualité des données</li>
+              <li>SQL avancé, data warehousing</li>
+              <li>Visualisation et storytelling</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Dev & Cloud</h3>
+            <ul>
+              <li>FastAPI, microservices, Docker</li>
+              <li>CI/CD, tests, observabilité</li>
+              <li>GCP / AWS</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="apropos" class="section">
+        <div class="section-header">
+          <h2>À propos</h2>
+          <p>Un aperçu de mon parcours.</p>
+        </div>
+        <div class="about">
+          <p>
+            Je conçois des solutions ML de bout en bout, de l’exploration des données à
+            la mise en production. J’aime les environnements orientés produit où les
+            modèles créent un impact mesurable.
+          </p>
+          <div class="about-cards">
+            <div>
+              <h4>Expérience</h4>
+              <p>3+ ans en Data Science et MLOps.</p>
+            </div>
+            <div>
+              <h4>Formation</h4>
+              <p>Master en Data Science / IA.</p>
+            </div>
+            <div>
+              <h4>Localisation</h4>
+              <p>Paris, France (remote possible).</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section alt">
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p>Parlons de vos projets.</p>
+        </div>
+        <div class="contact">
+          <div>
+            <h3>Disponible pour</h3>
+            <ul>
+              <li>Missions Data/ML</li>
+              <li>Collaboration produit</li>
+              <li>Conseil MLOps</li>
+            </ul>
+          </div>
+          <div class="contact-card">
+            <p>Écrivez-moi à</p>
+            <a class="btn primary" href="mailto:email@exemple.com">email@exemple.com</a>
+            <p class="small">Je réponds en moins de 48h.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Votre Nom • Portfolio ML</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
